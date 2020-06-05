@@ -23,7 +23,6 @@ class HERTrainer:
         Experience = namedtuple(
             "Experience", field_names="state action reward next_state done"
         )
-        success_rate = 0.0
         success_rates = []
         for epoch in range(num_epochs):
 
